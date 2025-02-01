@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/all.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <title>Countup</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav
+      class="navbar navbar-expand-lg px-5 py-3 bg-info d-flex justify-content-between align-items-center"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">LOGO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Welcome message -->
+    <main
+      class="container-fluid pt-5 pb-5 d-flex justify-content-center align-items-center"
+      style="height: 45vh"
+    >
+      <div class="main-desc text-center d-flex">
+        <div>
+          <h1 class="fs-1">Welcome to all our visitors</h1>
+          <p>Thank you for visiting us,follow</p>
+          <button class="btn btn-info">Get started</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Counting up -->
+    <section
+      id="counter-container"
+      class="row text-center bg-light text-info justify-content-center align-items-center mt-5 p-5"
+    >
+      <div id="tips" class="col-lg-3 col-md-4 col-12 mt-3">
+        <div id="tips-counter" class="fs-1">1</div>
+        <div class="fs-4"><i class="fa-solid fa-table-list"></i> Tips</div>
+      </div>
+      <div id="followers" class="col-lg-3 col-md-4 col-12 mt-3">
+        <div id="followers-counter" class="fs-1"></div>
+        <div class="fs-4"><i class="fa-solid fa-face-smile"></i> Followers</div>
+      </div>
+      <div id="clones" class="col-lg-3 col-md-4 col-12 mt-3">
+        <div id="clones-counter" class="fs-1"></div>
+        <div class="fs-4"><i class="fa-regular fa-copy"></i> Clones</div>
+      </div>
+    </section>
+
+    <script src="JS/index.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
